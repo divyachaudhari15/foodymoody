@@ -1,0 +1,280 @@
+img{
+    max-width: 100%
+}
+/*---------------------
+ Home Css here
+----------------------------*/
+.home-title1 h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.home-title2 h1 {
+  color: #535353;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.order-now a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 13px 35px;
+  text-transform: uppercase;
+}
+.order-now a:hover {
+    background: #535353 none repeat scroll 0 0;
+    color: #fff;
+}
+.order-now {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/*---------------------
+About Css here
+----------------------------*/
+.welcome-about h2.title_1 {
+  color: #555555;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.welcome-about p.text1 {
+  margin-top: 22px;
+}
+.welcome-about .read-more > a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px 38px;
+  text-transform: uppercase;
+}
+.welcome-about .read-more {
+  margin-top: 35px;
+}
+.welcome-about .read-more > a:hover{
+  background: #535353;
+  color: #fff;
+}
+
+/*------------------
+  Menu Card css here
+-------------------------*/
+.menu-title1 h1 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+}
+.menu-title2 h2 {
+  color: #535353;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.show-more > a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px 38px;
+  text-transform: uppercase;
+}
+.show-more {
+  margin-top: 35px;
+}
+.show-more > a:hover{
+  background: #535353;
+  color: #fff;
+}
+.py-5 .row{
+  grid-gap: 10px 0px;
+}
+
+/*------------------
+  Our gallery css here
+-------------------------*/
+h2.title {
+  color: #555555;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 7px;
+  text-transform: capitalize;
+}
+.our-gallery .row{
+  grid-gap: 10px 0px;
+}
+
+/*------------------
+  Discount offer css here
+-------------------------*/
+.offer-section .bg-img {
+  background: rgba(0, 0, 0, 0) url("Images/vegetable.jpg") no-repeat scroll 15% center;
+}
+.offer-inner h2.ttle1 {
+    color: #535353;
+    font-family: "Great Vibes",cursive;
+    font-size: 36px;
+    text-transform: lowercase;
+}
+.offer-inner h2.ttle2 {
+    color: #535353;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.order-now > a {
+  background: #e54c2a none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 16px 38px;
+  text-transform: uppercase;
+}
+.order-now {
+  margin-top: 35px;
+}
+.order-now > a:hover{
+  background: #535353;
+  color: #fff;
+}
+
+/*--------------------------
+Sign up page css here
+--------------------------*/
+.col-lg-6.signup-form-div .signup-form {
+    float: right;
+    padding-left: 30px;
+    width: 585px;
+}
+.signup-form-title h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+input,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px ;8px
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signup-form-box button {
+    background: #e54c2a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.signup-form-box button:hover{
+  background: #555;
+  color: #fff;
+}
+
+/*--------------------------
+Login page css here
+--------------------------*/
+.col-lg-6.login-form-div .login-form {
+    float: right;
+    padding-left: 30px;
+    width: 585px;
+}
+.login-form-title h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+input,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-form-box button {
+    background: #e54c2a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.login-form-box button:hover{
+  background: #555;
+}
+
+/*--------------------------
+Contact us page css here
+--------------------------*/
+.col-lg-6.contact-form-div .contact-form {
+    float: right;
+    padding-left: 30px;
+    width: 585px;
+}
+.contact-form-title h2 {
+  color: #535353;
+  font-family: "Great Vibes",cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+input,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-form-box button {
+    background: #e54c2a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 40px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contact-form-box button:hover{
+  background: #555;
+  color: #fff;
+}
